@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", "Inter", Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.header {
+    margin: 30px 0 30px 0;
+    align-content: center;
+    font-size: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    margin: 30px 0 20px 0;
+}
+
+.search input {
+    display: block;
+    width: 900px;
+    height: calc(3rem + 3px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #D9D9D9;
+    background-clip: padding-box;
+    border: 1px solid #D9D9D9;
+    border-radius: 1rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+search input::placeholder {
+    color: #000;
+}
+
+.search input:focus {
+    color: #212529;
+    background-color: #D9D9D9;
+    background-clip: padding-box;
+    border: 1px solid #D9D9D9;
+    outline: 0;
+}
+
+.telephone {
+    margin-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+}
+
+.telephone img {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar img {
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.navbar div {
+    position: absolute;
+}
+
+.text_on_image {
+    text-align: left;
+    font-size: 110px;
+    color: #FFFFFF;
+    padding: 10px 0 0 25px;
+}
+
+.component {
+    margin: 20px 10px 0 10px;
+}
+
+.models {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text_auto {
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.card {
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.card img {
+    height: 350px;
+    width: 600px;
+    object-fit: fill;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.car_name {
+    font-size: 50px;
+    text-align: center;
+}
+
+.car_total {
+    font-size: 36px;
+    border: 1px solid #454749;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.car_total:hover {
+    background-color: #0c4586;
+    color: #FFFFFF;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.info_container img {
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    font-size: 30px;
+}
